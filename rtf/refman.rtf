@@ -1,0 +1,2011 @@
+{\rtf1\ansi\ansicpg1251\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset204\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset204\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset204\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\info 
+{\title {\comment My Project  {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+1.0 \par
+}}My Project}
+{\comment \'D1\'EE\'E7\'E4\'E0\'ED\'EE \'F1\'E8\'F1\'F2\'E5\'EC\'EE\'E9 doxygen 1.9.5.}
+{\creatim \yr2022\mo9\dy20\hr12\min6\sec20}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt My Project}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+\'C2\'E5\'F0\'F1\'E8\'FF 1.0\par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt \'C2\'F2 20 \'D1\'E5\'ED 2022 }}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \'CE\'E3\'EB\'E0\'E2\'EB\'E5\'ED\'E8\'E5\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'C8\'E5\'F0\'E0\'F0\'F5\'E8\'F7\'E5\'F1\'EA\'E8\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'EA\'EB\'E0\'F1\'F1\'EE\'E2\par \pard\plain 
+{\tc \v \'C8\'E5\'F0\'E0\'F0\'F5\'E8\'F7\'E5\'F1\'EA\'E8\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'EA\'EB\'E0\'F1\'F1\'EE\'E2}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'C8\'E5\'F0\'E0\'F0\'F5\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'EE\'E2\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C8\'E5\'F0\'E0\'F0\'F5\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'EE\'E2.}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Database\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Project\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+QDialog
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Dialog\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+QMainWindow
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+MainWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+qt_meta_stringdata_Dialog_t\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+qt_meta_stringdata_MainWindow_t\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Ui_Dialog\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Ui::Dialog\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+Ui_MainWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Ui::MainWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'EA\'EB\'E0\'F1\'F1\'EE\'E2\par \pard\plain 
+{\tc \v \'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'EA\'EB\'E0\'F1\'F1\'EE\'E2}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'CA\'EB\'E0\'F1\'F1\'FB \'F1 \'E8\'F5 \'EA\'F0\'E0\'F2\'EA\'E8\'EC \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\'EC.}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAK" }{}}{\fldrslt {\cs37\ul\cf2 Database}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'E4\'EB\'FF \'F0\'E0\'E1\'EE\'F2\'FB \'F1 \'E1\'E0\'E7\'EE\'E9 \'E4\'E0\'ED\'ED\'FB\'F5 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'E4\'EB\'FF \'F0\'E0\'E1\'EE\'F2\'FB \'F1 \'E4\'E8\'EB\'EE\'E3\'EE\'E2\'FB\'EC \'EE\'EA\'ED\'EE\'EC \'EF\'F0\'E8 \'E4\'EE\'E1\'E0\'E2\'EB\'E5\'ED\'E8\'E8/\'F0\'E5\'E4\'E0\'EA\'F2\'E8\'F0\'EE\'E2\'E0\'ED\'E8\'E8 \'EF\'F0\'EE\'E5\'EA\'F2\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAE" }{}}{\fldrslt {\cs37\ul\cf2 Ui::Dialog}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+ ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'EE\'F1\'ED\'EE\'E2\'ED\'EE\'E3\'EE \'EE\'EA\'ED\'E0 })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAI" }{}}{\fldrslt {\cs37\ul\cf2 Ui::MainWindow}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Project}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABQ" }{}}{\fldrslt {\cs37\ul\cf2 qt_meta_stringdata_Dialog_t}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABT" }{}}{\fldrslt {\cs37\ul\cf2 qt_meta_stringdata_MainWindow_t}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 Ui_Dialog}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAG" }{}}{\fldrslt {\cs37\ul\cf2 Ui_MainWindow}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'D1\'EF\'E8\'F1\'EE\'EA \'F4\'E0\'E9\'EB\'EE\'E2\par \pard\plain 
+{\tc \v \'D1\'EF\'E8\'F1\'EE\'EA \'F4\'E0\'E9\'EB\'EE\'E2}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB\'FB\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'CF\'EE\'EB\'ED\'FB\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'E4\'EE\'EA\'F3\'EC\'E5\'ED\'F2\'E8\'F0\'EE\'E2\'E0\'ED\'ED\'FB\'F5 \'F4\'E0\'E9\'EB\'EE\'E2.}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b build-Projects-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAB" }{}}{\fldrslt {\cs37\ul\cf2 ui_dialog.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b build-Projects-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAF" }{}}{\fldrslt {\cs37\ul\cf2 ui_mainwindow.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b build-Projects-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/debug/{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAA" }{}}{\fldrslt {\cs37\ul\cf2 moc_predefs.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projects/{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAJ" }{}}{\fldrslt {\cs37\ul\cf2 database.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projects/{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAV" }{}}{\fldrslt {\cs37\ul\cf2 dialog.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projects/{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAY" }{}}{\fldrslt {\cs37\ul\cf2 mainwindow.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b Projects/{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABA" }{}}{\fldrslt {\cs37\ul\cf2 project.h}}}
+ } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB{\tc \v \'CA\'EB\'E0\'F1\'F1\'FB}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Database\par \pard\plain 
+{\tc\tcl2 \v Database}
+{\xe \v Database}
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'E4\'EB\'FF \'F0\'E0\'E1\'EE\'F2\'FB \'F1 \'E1\'E0\'E7\'EE\'E9 \'E4\'E0\'ED\'ED\'FB\'F5 }}\par
+{
+{\f2 #include <database.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+virtual {\b ~Database} (){\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C4\'E5\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EA\'EB\'E0\'F1\'F1\'E0 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+bool {\b connect} (QObject *parent=nullptr){\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CC\'E5\'F2\'EE\'E4 \'EF\'EE\'E4\'EA\'EB\'FE\'F7\'E5\'ED\'E8\'FF \'EA \'E1\'E0\'E7\'E5 \'E4\'E0\'ED\'ED\'FB\'F5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b close} (){\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CC\'E5\'F2\'EE\'E4 \'E7\'E0\'EA\'F0\'FB\'F2\'E8\'FF \'E1\'E0\'E7\'FB \'E4\'E0\'ED\'ED\'FB\'F5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b select} (){\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'FB\'E2\'EE\'E4 \'E7\'E0\'EF\'E8\'F1\'E5\'E9 \'E8\'E7 \'E1\'E0\'E7\'FB \'E4\'E0\'ED\'ED\'FB\'F5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+bool {\b addProject} (const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Project}}}
+ &project){\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CC\'E5\'F2\'EE\'E4 \'E4\'EE\'E1\'E0\'E2\'EB\'E5\'ED\'E8\'FF \'EF\'F0\'EE\'E5\'EA\'F2\'E0 \'E2 \'E1\'E0\'E7\'F3 \'E4\'E0\'ED\'ED\'FB\'F5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+bool {\b editProject} (const int id, const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Project}}}
+ &project){\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CC\'E5\'F2\'EE\'E4 \'F0\'E5\'E4\'E0\'EA\'F2\'E8\'F0\'EE\'E2\'E0\'ED\'E8\'FF \'EF\'F0\'EE\'E5\'EA\'F2\'E0 \'E2 \'E1\'E0\'E7\'E5 \'E4\'E0\'ED\'ED\'FB\'F5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+bool {\b deleteProject} (const int id){\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CC\'E5\'F2\'EE\'E4 \'F3\'E4\'E0\'EB\'E5\'ED\'E8\'FF \'EF\'F0\'EE\'E5\'EA\'F2\'E0 \'E2 \'E1\'E0\'E7\'E5 \'E4\'E0\'ED\'ED\'FB\'F5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QSqlDatabase {\b getDatabase} (){\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CF\'EE\'EB\'F3\'F7\'E5\'ED\'E8\'E5 \'E1\'E0\'E7\'FB \'E4\'E0\'ED\'ED\'FB\'F5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QSqlQueryModel * {\b getModel} (){\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C2\'EE\'E7\'E2\'F0\'E0\'F9\'E0\'E5\'F2 \'EC\'EE\'E4\'E5\'EB\'FC \'E1\'E0\'E7\'FB \'E4\'E0\'ED\'ED\'FB\'F5 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'E4\'EB\'FF \'F0\'E0\'E1\'EE\'F2\'FB \'F1 \'E1\'E0\'E7\'EE\'E9 \'E4\'E0\'ED\'ED\'FB\'F5 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projects/database.h\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projects/database.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Dialog\par \pard\plain 
+{\tc\tcl2 \v Dialog}
+{\xe \v Dialog}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'E4\'EB\'FF \'F0\'E0\'E1\'EE\'F2\'FB \'F1 \'E4\'E8\'EB\'EE\'E3\'EE\'E2\'FB\'EC \'EE\'EA\'ED\'EE\'EC \'EF\'F0\'E8 \'E4\'EE\'E1\'E0\'E2\'EB\'E5\'ED\'E8\'E8/\'F0\'E5\'E4\'E0\'EA\'F2\'E8\'F0\'EE\'E2\'E0\'ED\'E8\'E8 \'EF\'F0\'EE\'E5\'EA\'F2\'E0 }}\par
+{
+{\f2 #include <dialog.h>}}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Dialog:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_dialog.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'D1\'E8\'E3\'ED\'E0\'EB\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b sendProject} ({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Project}}}
+){\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'D1\'E8\'E3\'ED\'E0\'EB \'EE\'F2\'EF\'F0\'E0\'E2\'EA\'E8 \'EF\'F0\'EE\'E5\'EA\'F2\'E5 }{
+}\par
+}\par}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b Dialog} (QWidget *parent=nullptr){\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EF\'EE \'F3\'EC\'EE\'EB\'F7\'E0\'ED\'E8\'FE }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b Dialog} (const {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Project}}}
+ &project, QWidget *parent=nullptr){\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'F1 \'E4\'E0\'ED\'ED\'FB\'EC\'E8 \'EF\'F0\'EE\'E5\'EA\'F2\'E5 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ~Dialog} (){\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C4\'E5\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EA\'EB\'E0\'F1\'F1\'E0 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'E4\'EB\'FF \'F0\'E0\'E1\'EE\'F2\'FB \'F1 \'E4\'E8\'EB\'EE\'E3\'EE\'E2\'FB\'EC \'EE\'EA\'ED\'EE\'EC \'EF\'F0\'E8 \'E4\'EE\'E1\'E0\'E2\'EB\'E5\'ED\'E8\'E8/\'F0\'E5\'E4\'E0\'EA\'F2\'E8\'F0\'EE\'E2\'E0\'ED\'E8\'E8 \'EF\'F0\'EE\'E5\'EA\'F2\'E0 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projects/dialog.h\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+build-Projects-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/debug/moc_dialog.cpp\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projects/dialog.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Ui::Dialog\par \pard\plain 
+{\tc\tcl2 \v Ui::Dialog}
+{\xe \v Ui::Dialog}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Ui::Dialog:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_ui_1_1_dialog.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'EE\'EF\'EE\'EB\'ED\'E8\'F2\'E5\'EB\'FC\'ED\'FB\'E5 \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+build-Projects-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/ui_dialog.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 MainWindow\par \pard\plain 
+{\tc\tcl2 \v MainWindow}
+{\xe \v MainWindow}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'EE\'F1\'ED\'EE\'E2\'ED\'EE\'E3\'EE \'EE\'EA\'ED\'E0 }}\par
+{
+{\f2 #include <mainwindow.h>}}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:MainWindow:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_main_window.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b MainWindow} (QWidget *parent=nullptr){\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EF\'EE \'F3\'EC\'EE\'EB\'F7\'E0\'ED\'E8\'FE }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b ~MainWindow} (){\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C4\'E5\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EA\'EB\'E0\'F1\'F1\'E0 }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'EE\'F1\'ED\'EE\'E2\'ED\'EE\'E3\'EE \'EE\'EA\'ED\'E0 \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projects/mainwindow.h\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projects/mainwindow.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Ui::MainWindow\par \pard\plain 
+{\tc\tcl2 \v Ui::MainWindow}
+{\xe \v Ui::MainWindow}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Ui::MainWindow:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_ui_1_1_main_window.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'EE\'EF\'EE\'EB\'ED\'E8\'F2\'E5\'EB\'FC\'ED\'FB\'E5 \'F3\'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'ED\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+build-Projects-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/ui_mainwindow.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Project\par \pard\plain 
+{\tc\tcl2 \v Project}
+{\xe \v Project}
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b Project} (){\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'EF\'EE \'F3\'EC\'EE\'EB\'F7\'E0\'ED\'E8\'FE }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+{\b Project} (QString appointment, QString customer, QString city, QString streetAddress, QString postalCode){\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0 \'F1 \'EF\'E0\'F0\'E0\'EC\'E5\'F2\'F0\'E0\'EC\'E8 }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QString {\b appointment} () const{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b setAppointment} (const QString &appointment){\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QString {\b customer} () const{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b setCustomer} (const QString &customer){\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QString {\b city} () const{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b setCity} (const QString &city){\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QString {\b streetAddress} () const{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b setStreetAddress} (const QString &streetAddress){\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QString {\b postalCode} () const{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b setPostalCode} (const QString &postalCode){\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projects/project.h\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Projects/project.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D1\'F2\'F0\'F3\'EA\'F2\'F3\'F0\'E0 qt_meta_stringdata_Dialog_t\par \pard\plain 
+{\tc\tcl2 \v qt_meta_stringdata_Dialog_t}
+{\xe \v qt_meta_stringdata_Dialog_t}
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'E0\'F2\'F0\'E8\'E1\'F3\'F2\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QByteArrayData {\b data} [5]{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+char {\b stringdata0} [49]{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'F1\'F2\'F0\'F3\'EA\'F2\'F3\'F0\'FB \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+build-Projects-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/debug/moc_dialog.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D1\'F2\'F0\'F3\'EA\'F2\'F3\'F0\'E0 qt_meta_stringdata_MainWindow_t\par \pard\plain 
+{\tc\tcl2 \v qt_meta_stringdata_MainWindow_t}
+{\xe \v qt_meta_stringdata_MainWindow_t}
+{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'E0\'F2\'F0\'E8\'E1\'F3\'F2\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QByteArrayData {\b data} [13]{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+char {\b stringdata0} [209]{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'F1\'F2\'F0\'F3\'EA\'F2\'F3\'F0\'FB \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+build-Projects-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/debug/moc_mainwindow.cpp\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Ui_Dialog\par \pard\plain 
+{\tc\tcl2 \v Ui_Dialog}
+{\xe \v Ui_Dialog}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Ui_Dialog:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_ui___dialog.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b setupUi} (QDialog *{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+){\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b retranslateUi} (QDialog *{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+){\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'E0\'F2\'F0\'E8\'E1\'F3\'F2\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QVBoxLayout * {\b verticalLayout_6}{\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QVBoxLayout * {\b verticalLayout_2}{\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QLabel * {\b labelCustomer}{\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QLineEdit * {\b lineEditCustomer}{\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QVBoxLayout * {\b verticalLayout}{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QLabel * {\b labelAppointment}{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QLineEdit * {\b lineEditAppointment}{\bkmkstart AAAAAAAACE}
+{\bkmkend AAAAAAAACE}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QVBoxLayout * {\b verticalLayout_3}{\bkmkstart AAAAAAAACF}
+{\bkmkend AAAAAAAACF}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QLabel * {\b labelCity}{\bkmkstart AAAAAAAACG}
+{\bkmkend AAAAAAAACG}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QLineEdit * {\b lineEditCity}{\bkmkstart AAAAAAAACH}
+{\bkmkend AAAAAAAACH}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QVBoxLayout * {\b verticalLayout_4}{\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QLabel * {\b labelStreetAddress}{\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QLineEdit * {\b lineEditStreetAddress}{\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QVBoxLayout * {\b verticalLayout_5}{\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QLabel * {\b labelPostalCode}{\bkmkstart AAAAAAAACM}
+{\bkmkend AAAAAAAACM}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QLineEdit * {\b lineEditPostalCode}{\bkmkstart AAAAAAAACN}
+{\bkmkend AAAAAAAACN}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QHBoxLayout * {\b horizontalLayout}{\bkmkstart AAAAAAAACO}
+{\bkmkend AAAAAAAACO}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QSpacerItem * {\b horizontalSpacer}{\bkmkstart AAAAAAAACP}
+{\bkmkend AAAAAAAACP}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QPushButton * {\b pushButtonOK}{\bkmkstart AAAAAAAACQ}
+{\bkmkend AAAAAAAACQ}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+build-Projects-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/ui_dialog.h\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 Ui_MainWindow\par \pard\plain 
+{\tc\tcl2 \v Ui_MainWindow}
+{\xe \v Ui_MainWindow}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:Ui_MainWindow:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_ui___main_window.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b setupUi} (QMainWindow *{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+){\bkmkstart AAAAAAAACR}
+{\bkmkend AAAAAAAACR}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+void {\b retranslateUi} (QMainWindow *{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+){\bkmkstart AAAAAAAACS}
+{\bkmkend AAAAAAAACS}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'E0\'F2\'F0\'E8\'E1\'F3\'F2\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QAction * {\b actionAbout_program}{\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QAction * {\b actionAdd_project}{\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QAction * {\b actionEdit_project}{\bkmkstart AAAAAAAACV}
+{\bkmkend AAAAAAAACV}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QAction * {\b actionDelete_project}{\bkmkstart AAAAAAAACW}
+{\bkmkend AAAAAAAACW}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QWidget * {\b centralwidget}{\bkmkstart AAAAAAAACX}
+{\bkmkend AAAAAAAACX}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QVBoxLayout * {\b verticalLayout}{\bkmkstart AAAAAAAACY}
+{\bkmkend AAAAAAAACY}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QTableView * {\b tableView}{\bkmkstart AAAAAAAACZ}
+{\bkmkend AAAAAAAACZ}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QFrame * {\b line}{\bkmkstart AAAAAAAADA}
+{\bkmkend AAAAAAAADA}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QMenuBar * {\b menubar}{\bkmkstart AAAAAAAADB}
+{\bkmkend AAAAAAAADB}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QMenu * {\b menuLanguage}{\bkmkstart AAAAAAAADC}
+{\bkmkend AAAAAAAADC}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QMenu * {\b menuHelp}{\bkmkstart AAAAAAAADD}
+{\bkmkend AAAAAAAADD}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QStatusBar * {\b statusbar}{\bkmkstart AAAAAAAADE}
+{\bkmkend AAAAAAAADE}
+\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+
+QToolBar * {\b toolBar}{\bkmkstart AAAAAAAADF}
+{\bkmkend AAAAAAAADF}
+\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+build-Projects-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/ui_mainwindow.h\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'D4\'E0\'E9\'EB\'FB{\tc \v \'D4\'E0\'E9\'EB\'FB}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+moc_predefs.h\par \pard\plain 
+{\tc\tcl2 \v build-Projects-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/debug/moc_predefs.h}
+{\xe \v build-Projects-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/debug/moc_predefs.h}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #define __DBL_MIN_EXP__ (-1021)}\par
+2 {\cf21 #define __FLT32X_MAX_EXP__ 1024}\par
+3 {\cf21 #define __cpp_attributes 200809}\par
+4 {\cf21 #define __UINT_LEAST16_MAX__ 0xffff}\par
+5 {\cf21 #define __ATOMIC_ACQUIRE 2}\par
+6 {\cf21 #define __FLT128_MAX_10_EXP__ 4932}\par
+7 {\cf21 #define __FLT_MIN__ 1.17549435082228750796873653722224568e-38F}\par
+8 {\cf21 #define __GCC_IEC_559_COMPLEX 2}\par
+9 {\cf21 #define __UINT_LEAST8_TYPE__ unsigned char}\par
+10 {\cf21 #define __SIZEOF_FLOAT80__ 16}\par
+11 {\cf21 #define _WIN32 1}\par
+12 {\cf21 #define __INTMAX_C(c) c ## LL}\par
+13 {\cf21 #define __CHAR_BIT__ 8}\par
+14 {\cf21 #define __UINT8_MAX__ 0xff}\par
+15 {\cf21 #define _WIN64 1}\par
+16 {\cf21 #define __WINT_MAX__ 0xffff}\par
+17 {\cf21 #define __FLT32_MIN_EXP__ (-125)}\par
+18 {\cf21 #define __cpp_static_assert 200410}\par
+19 {\cf21 #define __ORDER_LITTLE_ENDIAN__ 1234}\par
+20 {\cf21 #define __SIZE_MAX__ 0xffffffffffffffffULL}\par
+21 {\cf21 #define __WCHAR_MAX__ 0xffff}\par
+22 {\cf21 #define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_1 1}\par
+23 {\cf21 #define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_2 1}\par
+24 {\cf21 #define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 1}\par
+25 {\cf21 #define __DBL_DENORM_MIN__ double(4.94065645841246544176568792868221372e-324L)}\par
+26 {\cf21 #define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_8 1}\par
+27 {\cf21 #define __GCC_ATOMIC_CHAR_LOCK_FREE 2}\par
+28 {\cf21 #define __GCC_IEC_559 2}\par
+29 {\cf21 #define __FLT32X_DECIMAL_DIG__ 17}\par
+30 {\cf21 #define __FLT_EVAL_METHOD__ 0}\par
+31 {\cf21 #define __cpp_binary_literals 201304}\par
+32 {\cf21 #define __FLT64_DECIMAL_DIG__ 17}\par
+33 {\cf21 #define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 2}\par
+34 {\cf21 #define __x86_64 1}\par
+35 {\cf21 #define __cpp_variadic_templates 200704}\par
+36 {\cf21 #define __UINT_FAST64_MAX__ 0xffffffffffffffffULL}\par
+37 {\cf21 #define __SIG_ATOMIC_TYPE__ int}\par
+38 {\cf21 #define __DBL_MIN_10_EXP__ (-307)}\par
+39 {\cf21 #define __FINITE_MATH_ONLY__ 0}\par
+40 {\cf21 #define __GNUC_PATCHLEVEL__ 0}\par
+41 {\cf21 #define __FLT32_HAS_DENORM__ 1}\par
+42 {\cf21 #define __UINT_FAST8_MAX__ 0xff}\par
+43 {\cf21 #define __has_include(STR) __has_include__(STR)}\par
+44 {\cf21 #define _stdcall __attribute__((__stdcall__))}\par
+45 {\cf21 #define __DEC64_MAX_EXP__ 385}\par
+46 {\cf21 #define __INT8_C(c) c}\par
+47 {\cf21 #define __INT_LEAST8_WIDTH__ 8}\par
+48 {\cf21 #define __UINT_LEAST64_MAX__ 0xffffffffffffffffULL}\par
+49 {\cf21 #define __SHRT_MAX__ 0x7fff}\par
+50 {\cf21 #define __LDBL_MAX__ 1.18973149535723176502126385303097021e+4932L}\par
+51 {\cf21 #define __UINT_LEAST8_MAX__ 0xff}\par
+52 {\cf21 #define __GCC_ATOMIC_BOOL_LOCK_FREE 2}\par
+53 {\cf21 #define __FLT128_DENORM_MIN__ 6.47517511943802511092443895822764655e-4966F128}\par
+54 {\cf21 #define __UINTMAX_TYPE__ long long unsigned int}\par
+55 {\cf21 #define __DEC32_EPSILON__ 1E-6DF}\par
+56 {\cf21 #define __FLT_EVAL_METHOD_TS_18661_3__ 0}\par
+57 {\cf21 #define __UINT32_MAX__ 0xffffffffU}\par
+58 {\cf21 #define __GXX_EXPERIMENTAL_CXX0X__ 1}\par
+59 {\cf21 #define __LDBL_MAX_EXP__ 16384}\par
+60 {\cf21 #define __FLT128_MIN_EXP__ (-16381)}\par
+61 {\cf21 #define __WINT_MIN__ 0}\par
+62 {\cf21 #define __FLT128_MIN_10_EXP__ (-4931)}\par
+63 {\cf21 #define __INT_LEAST16_WIDTH__ 16}\par
+64 {\cf21 #define __SCHAR_MAX__ 0x7f}\par
+65 {\cf21 #define __FLT128_MANT_DIG__ 113}\par
+66 {\cf21 #define __WCHAR_MIN__ 0}\par
+67 {\cf21 #define __INT64_C(c) c ## LL}\par
+68 {\cf21 #define __DBL_DIG__ 15}\par
+69 {\cf21 #define __GCC_ATOMIC_POINTER_LOCK_FREE 2}\par
+70 {\cf21 #define __FLT64X_MANT_DIG__ 64}\par
+71 {\cf21 #define __SIZEOF_INT__ 4}\par
+72 {\cf21 #define __SIZEOF_POINTER__ 8}\par
+73 {\cf21 #define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 2}\par
+74 {\cf21 #define __USER_LABEL_PREFIX__ }\par
+75 {\cf21 #define __FLT64X_EPSILON__ 1.08420217248550443400745280086994171e-19F64x}\par
+76 {\cf21 #define __STDC_HOSTED__ 1}\par
+77 {\cf21 #define __WIN32 1}\par
+78 {\cf21 #define __LDBL_HAS_INFINITY__ 1}\par
+79 {\cf21 #define __WIN64 1}\par
+80 {\cf21 #define __FLT32_DIG__ 6}\par
+81 {\cf21 #define __FLT_EPSILON__ 1.19209289550781250000000000000000000e-7F}\par
+82 {\cf21 #define __GXX_WEAK__ 1}\par
+83 {\cf21 #define __SHRT_WIDTH__ 16}\par
+84 {\cf21 #define __LDBL_MIN__ 3.36210314311209350626267781732175260e-4932L}\par
+85 {\cf21 #define __DEC32_MAX__ 9.999999E96DF}\par
+86 {\cf21 #define __FLT64X_MAX_10_EXP__ 4932}\par
+87 {\cf21 #define __cpp_threadsafe_static_init 200806}\par
+88 {\cf21 #define __FLT64X_DENORM_MIN__ 3.64519953188247460252840593361941982e-4951F64x}\par
+89 {\cf21 #define __MINGW32__ 1}\par
+90 {\cf21 #define __FLT32X_HAS_INFINITY__ 1}\par
+91 {\cf21 #define __INT32_MAX__ 0x7fffffff}\par
+92 {\cf21 #define __INT_WIDTH__ 32}\par
+93 {\cf21 #define __SIZEOF_LONG__ 4}\par
+94 {\cf21 #define __UINT16_C(c) c}\par
+95 {\cf21 #define __PTRDIFF_WIDTH__ 64}\par
+96 {\cf21 #define __DECIMAL_DIG__ 21}\par
+97 {\cf21 #define __FLT64_EPSILON__ 2.22044604925031308084726333618164062e-16F64}\par
+98 {\cf21 #define __INTMAX_WIDTH__ 64}\par
+99 {\cf21 #define __FLT64_MIN_EXP__ (-1021)}\par
+100 {\cf21 #define __has_include_next(STR) __has_include_next__(STR)}\par
+101 {\cf21 #define __FLT64X_MIN_10_EXP__ (-4931)}\par
+102 {\cf21 #define __LDBL_HAS_QUIET_NAN__ 1}\par
+103 {\cf21 #define __FLT64_MANT_DIG__ 53}\par
+104 {\cf21 #define _REENTRANT 1}\par
+105 {\cf21 #define __GNUC__ 8}\par
+106 {\cf21 #define _cdecl __attribute__((__cdecl__))}\par
+107 {\cf21 #define __GXX_RTTI 1}\par
+108 {\cf21 #define __MMX__ 1}\par
+109 {\cf21 #define __cpp_delegating_constructors 200604}\par
+110 {\cf21 #define __FLT_HAS_DENORM__ 1}\par
+111 {\cf21 #define __SIZEOF_LONG_DOUBLE__ 16}\par
+112 {\cf21 #define __BIGGEST_ALIGNMENT__ 16}\par
+113 {\cf21 #define __STDC_UTF_16__ 1}\par
+114 {\cf21 #define __FLT64_MAX_10_EXP__ 308}\par
+115 {\cf21 #define __FLT32_HAS_INFINITY__ 1}\par
+116 {\cf21 #define __DBL_MAX__ double(1.79769313486231570814527423731704357e+308L)}\par
+117 {\cf21 #define _thiscall __attribute__((__thiscall__))}\par
+118 {\cf21 #define __cpp_raw_strings 200710}\par
+119 {\cf21 #define __INT_FAST32_MAX__ 0x7fffffff}\par
+120 {\cf21 #define __WINNT 1}\par
+121 {\cf21 #define __DBL_HAS_INFINITY__ 1}\par
+122 {\cf21 #define __WINNT__ 1}\par
+123 {\cf21 #define __DEC32_MIN_EXP__ (-94)}\par
+124 {\cf21 #define __INTPTR_WIDTH__ 64}\par
+125 {\cf21 #define __FLT32X_HAS_DENORM__ 1}\par
+126 {\cf21 #define __INT_FAST16_TYPE__ short int}\par
+127 {\cf21 #define _fastcall __attribute__((__fastcall__))}\par
+128 {\cf21 #define __LDBL_HAS_DENORM__ 1}\par
+129 {\cf21 #define __cplusplus 201103L}\par
+130 {\cf21 #define __cpp_ref_qualifiers 200710}\par
+131 {\cf21 #define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL}\par
+132 {\cf21 #define __INT_LEAST32_MAX__ 0x7fffffff}\par
+133 {\cf21 #define __DEC32_MIN__ 1E-95DF}\par
+134 {\cf21 #define __DEPRECATED 1}\par
+135 {\cf21 #define __cpp_rvalue_references 200610}\par
+136 {\cf21 #define __DBL_MAX_EXP__ 1024}\par
+137 {\cf21 #define __WCHAR_WIDTH__ 16}\par
+138 {\cf21 #define __FLT32_MAX__ 3.40282346638528859811704183484516925e+38F32}\par
+139 {\cf21 #define __DEC128_EPSILON__ 1E-33DL}\par
+140 {\cf21 #define __SSE2_MATH__ 1}\par
+141 {\cf21 #define __ATOMIC_HLE_RELEASE 131072}\par
+142 {\cf21 #define __WIN32__ 1}\par
+143 {\cf21 #define __PTRDIFF_MAX__ 0x7fffffffffffffffLL}\par
+144 {\cf21 #define __amd64 1}\par
+145 {\cf21 #define __tune_core2__ 1}\par
+146 {\cf21 #define __ATOMIC_HLE_ACQUIRE 65536}\par
+147 {\cf21 #define __FLT32_HAS_QUIET_NAN__ 1}\par
+148 {\cf21 #define __GNUG__ 8}\par
+149 {\cf21 #define __LONG_LONG_MAX__ 0x7fffffffffffffffLL}\par
+150 {\cf21 #define __SIZEOF_SIZE_T__ 8}\par
+151 {\cf21 #define __cpp_rvalue_reference 200610}\par
+152 {\cf21 #define __cpp_nsdmi 200809}\par
+153 {\cf21 #define __FLT64X_MIN_EXP__ (-16381)}\par
+154 {\cf21 #define __SIZEOF_WINT_T__ 2}\par
+155 {\cf21 #define __LONG_LONG_WIDTH__ 64}\par
+156 {\cf21 #define __cpp_initializer_lists 200806}\par
+157 {\cf21 #define __FLT32_MAX_EXP__ 128}\par
+158 {\cf21 #define __cpp_hex_float 201603}\par
+159 {\cf21 #define __GCC_HAVE_DWARF2_CFI_ASM 1}\par
+160 {\cf21 #define __GXX_ABI_VERSION 1012}\par
+161 {\cf21 #define __FLT128_HAS_INFINITY__ 1}\par
+162 {\cf21 #define __FLT_MIN_EXP__ (-125)}\par
+163 {\cf21 #define __cpp_lambdas 200907}\par
+164 {\cf21 #define __FLT64X_HAS_QUIET_NAN__ 1}\par
+165 {\cf21 #define __INT_FAST64_TYPE__ long long int}\par
+166 {\cf21 #define __FLT64_DENORM_MIN__ 4.94065645841246544176568792868221372e-324F64}\par
+167 {\cf21 #define __DBL_MIN__ double(2.22507385850720138309023271733240406e-308L)}\par
+168 {\cf21 #define __FLT32X_EPSILON__ 2.22044604925031308084726333618164062e-16F32x}\par
+169 {\cf21 #define __DECIMAL_BID_FORMAT__ 1}\par
+170 {\cf21 #define __GXX_TYPEINFO_EQUALITY_INLINE 0}\par
+171 {\cf21 #define __FLT64_MIN_10_EXP__ (-307)}\par
+172 {\cf21 #define __FLT64X_DECIMAL_DIG__ 21}\par
+173 {\cf21 #define __DEC128_MIN__ 1E-6143DL}\par
+174 {\cf21 #define __REGISTER_PREFIX__ }\par
+175 {\cf21 #define __UINT16_MAX__ 0xffff}\par
+176 {\cf21 #define __DBL_HAS_DENORM__ 1}\par
+177 {\cf21 #define __cdecl __attribute__((__cdecl__))}\par
+178 {\cf21 #define __FLT32_MIN__ 1.17549435082228750796873653722224568e-38F32}\par
+179 {\cf21 #define __UINT8_TYPE__ unsigned char}\par
+180 {\cf21 #define __NO_INLINE__ 1}\par
+181 {\cf21 #define __FLT_MANT_DIG__ 24}\par
+182 {\cf21 #define __LDBL_DECIMAL_DIG__ 21}\par
+183 {\cf21 #define __VERSION__ "8.1.0"}\par
+184 {\cf21 #define __UINT64_C(c) c ## ULL}\par
+185 {\cf21 #define __cpp_unicode_characters 200704}\par
+186 {\cf21 #define __GCC_ATOMIC_INT_LOCK_FREE 2}\par
+187 {\cf21 #define __FLT128_MAX_EXP__ 16384}\par
+188 {\cf21 #define __FLT32_MANT_DIG__ 24}\par
+189 {\cf21 #define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__}\par
+190 {\cf21 #define __FLT128_HAS_DENORM__ 1}\par
+191 {\cf21 #define __FLT128_DIG__ 33}\par
+192 {\cf21 #define __SCHAR_WIDTH__ 8}\par
+193 {\cf21 #define __INT32_C(c) c}\par
+194 {\cf21 #define __DEC64_EPSILON__ 1E-15DD}\par
+195 {\cf21 #define __ORDER_PDP_ENDIAN__ 3412}\par
+196 {\cf21 #define __DEC128_MIN_EXP__ (-6142)}\par
+197 {\cf21 #define __FLT32_MAX_10_EXP__ 38}\par
+198 {\cf21 #define __INT_FAST32_TYPE__ int}\par
+199 {\cf21 #define __UINT_LEAST16_TYPE__ short unsigned int}\par
+200 {\cf21 #define __FLT64X_HAS_INFINITY__ 1}\par
+201 {\cf21 #define __INT16_MAX__ 0x7fff}\par
+202 {\cf21 #define __cpp_rtti 199711}\par
+203 {\cf21 #define __SIZE_TYPE__ long long unsigned int}\par
+204 {\cf21 #define __UINT64_MAX__ 0xffffffffffffffffULL}\par
+205 {\cf21 #define __FLT64X_DIG__ 18}\par
+206 {\cf21 #define __INT8_TYPE__ signed char}\par
+207 {\cf21 #define __GCC_ASM_FLAG_OUTPUTS__ 1}\par
+208 {\cf21 #define __FLT_RADIX__ 2}\par
+209 {\cf21 #define __INT_LEAST16_TYPE__ short int}\par
+210 {\cf21 #define __LDBL_EPSILON__ 1.08420217248550443400745280086994171e-19L}\par
+211 {\cf21 #define __UINTMAX_C(c) c ## ULL}\par
+212 {\cf21 #define __GLIBCXX_BITSIZE_INT_N_0 128}\par
+213 {\cf21 #define __SEH__ 1}\par
+214 {\cf21 #define __SIG_ATOMIC_MAX__ 0x7fffffff}\par
+215 {\cf21 #define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 2}\par
+216 {\cf21 #define __SIZEOF_PTRDIFF_T__ 8}\par
+217 {\cf21 #define __FLT32X_MANT_DIG__ 53}\par
+218 {\cf21 #define __x86_64__ 1}\par
+219 {\cf21 #define __FLT32X_MIN_EXP__ (-1021)}\par
+220 {\cf21 #define __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF}\par
+221 {\cf21 #define __MSVCRT__ 1}\par
+222 {\cf21 #define __INT_FAST16_MAX__ 0x7fff}\par
+223 {\cf21 #define __FLT64_DIG__ 15}\par
+224 {\cf21 #define __UINT_FAST32_MAX__ 0xffffffffU}\par
+225 {\cf21 #define __UINT_LEAST64_TYPE__ long long unsigned int}\par
+226 {\cf21 #define __FLT_HAS_QUIET_NAN__ 1}\par
+227 {\cf21 #define __FLT_MAX_10_EXP__ 38}\par
+228 {\cf21 #define __LONG_MAX__ 0x7fffffffL}\par
+229 {\cf21 #define __FLT64X_HAS_DENORM__ 1}\par
+230 {\cf21 #define __DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000000000001E-6143DL}\par
+231 {\cf21 #define __FLT_HAS_INFINITY__ 1}\par
+232 {\cf21 #define __cpp_unicode_literals 200710}\par
+233 {\cf21 #define __UINT_FAST16_TYPE__ short unsigned int}\par
+234 {\cf21 #define __DEC64_MAX__ 9.999999999999999E384DD}\par
+235 {\cf21 #define __INT_FAST32_WIDTH__ 32}\par
+236 {\cf21 #define __CHAR16_TYPE__ short unsigned int}\par
+237 {\cf21 #define __PRAGMA_REDEFINE_EXTNAME 1}\par
+238 {\cf21 #define __SIZE_WIDTH__ 64}\par
+239 {\cf21 #define __SEG_FS 1}\par
+240 {\cf21 #define __INT_LEAST16_MAX__ 0x7fff}\par
+241 {\cf21 #define __DEC64_MANT_DIG__ 16}\par
+242 {\cf21 #define __INT64_MAX__ 0x7fffffffffffffffLL}\par
+243 {\cf21 #define __UINT_LEAST32_MAX__ 0xffffffffU}\par
+244 {\cf21 #define __SEG_GS 1}\par
+245 {\cf21 #define __FLT32_DENORM_MIN__ 1.40129846432481707092372958328991613e-45F32}\par
+246 {\cf21 #define __GCC_ATOMIC_LONG_LOCK_FREE 2}\par
+247 {\cf21 #define __SIG_ATOMIC_WIDTH__ 32}\par
+248 {\cf21 #define __INT_LEAST64_TYPE__ long long int}\par
+249 {\cf21 #define __INT16_TYPE__ short int}\par
+250 {\cf21 #define __INT_LEAST8_TYPE__ signed char}\par
+251 {\cf21 #define __DEC32_MAX_EXP__ 97}\par
+252 {\cf21 #define __INT_FAST8_MAX__ 0x7f}\par
+253 {\cf21 #define __FLT128_MAX__ 1.18973149535723176508575932662800702e+4932F128}\par
+254 {\cf21 #define __INTPTR_MAX__ 0x7fffffffffffffffLL}\par
+255 {\cf21 #define __GXX_MERGED_TYPEINFO_NAMES 0}\par
+256 {\cf21 #define __cpp_range_based_for 200907}\par
+257 {\cf21 #define __FLT64_HAS_QUIET_NAN__ 1}\par
+258 {\cf21 #define __stdcall __attribute__((__stdcall__))}\par
+259 {\cf21 #define __FLT32_MIN_10_EXP__ (-37)}\par
+260 {\cf21 #define __SSE2__ 1}\par
+261 {\cf21 #define __EXCEPTIONS 1}\par
+262 {\cf21 #define __LDBL_MANT_DIG__ 64}\par
+263 {\cf21 #define __DBL_HAS_QUIET_NAN__ 1}\par
+264 {\cf21 #define __FLT64_HAS_INFINITY__ 1}\par
+265 {\cf21 #define __FLT64X_MAX__ 1.18973149535723176502126385303097021e+4932F64x}\par
+266 {\cf21 #define __SIG_ATOMIC_MIN__ (-__SIG_ATOMIC_MAX__ - 1)}\par
+267 {\cf21 #define __INTPTR_TYPE__ long long int}\par
+268 {\cf21 #define __UINT16_TYPE__ short unsigned int}\par
+269 {\cf21 #define __WCHAR_TYPE__ short unsigned int}\par
+270 {\cf21 #define __SIZEOF_FLOAT__ 4}\par
+271 {\cf21 #define __pic__ 1}\par
+272 {\cf21 #define __UINTPTR_MAX__ 0xffffffffffffffffULL}\par
+273 {\cf21 #define __INT_FAST64_WIDTH__ 64}\par
+274 {\cf21 #define __DEC64_MIN_EXP__ (-382)}\par
+275 {\cf21 #define __cpp_decltype 200707}\par
+276 {\cf21 #define __FLT32_DECIMAL_DIG__ 9}\par
+277 {\cf21 #define __INT_FAST64_MAX__ 0x7fffffffffffffffLL}\par
+278 {\cf21 #define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1}\par
+279 {\cf21 #define __FLT_DIG__ 6}\par
+280 {\cf21 #define __FLT64X_MAX_EXP__ 16384}\par
+281 {\cf21 #define __UINT_FAST64_TYPE__ long long unsigned int}\par
+282 {\cf21 #define __INT_MAX__ 0x7fffffff}\par
+283 {\cf21 #define __amd64__ 1}\par
+284 {\cf21 #define WIN32 1}\par
+285 {\cf21 #define __nocona 1}\par
+286 {\cf21 #define __code_model_medium__ 1}\par
+287 {\cf21 #define __INT64_TYPE__ long long int}\par
+288 {\cf21 #define __FLT_MAX_EXP__ 128}\par
+289 {\cf21 #define WIN64 1}\par
+290 {\cf21 #define __ORDER_BIG_ENDIAN__ 4321}\par
+291 {\cf21 #define __DBL_MANT_DIG__ 53}\par
+292 {\cf21 #define __cpp_inheriting_constructors 201511}\par
+293 {\cf21 #define __SIZEOF_FLOAT128__ 16}\par
+294 {\cf21 #define __INT_LEAST64_MAX__ 0x7fffffffffffffffLL}\par
+295 {\cf21 #define __DEC64_MIN__ 1E-383DD}\par
+296 {\cf21 #define __WINT_TYPE__ short unsigned int}\par
+297 {\cf21 #define __UINT_LEAST32_TYPE__ unsigned int}\par
+298 {\cf21 #define __SIZEOF_SHORT__ 2}\par
+299 {\cf21 #define __SSE__ 1}\par
+300 {\cf21 #define __LDBL_MIN_EXP__ (-16381)}\par
+301 {\cf21 #define __FLT64_MAX__ 1.79769313486231570814527423731704357e+308F64}\par
+302 {\cf21 #define __WINT_WIDTH__ 16}\par
+303 {\cf21 #define __INT_LEAST8_MAX__ 0x7f}\par
+304 {\cf21 #define __FLT32X_MAX_10_EXP__ 308}\par
+305 {\cf21 #define __SIZEOF_INT128__ 16}\par
+306 {\cf21 #define __WCHAR_UNSIGNED__ 1}\par
+307 {\cf21 #define __LDBL_MAX_10_EXP__ 4932}\par
+308 {\cf21 #define __ATOMIC_RELAXED 0}\par
+309 {\cf21 #define __DBL_EPSILON__ double(2.22044604925031308084726333618164062e-16L)}\par
+310 {\cf21 #define __thiscall __attribute__((__thiscall__))}\par
+311 {\cf21 #define __FLT128_MIN__ 3.36210314311209350626267781732175260e-4932F128}\par
+312 {\cf21 #define __UINT8_C(c) c}\par
+313 {\cf21 #define __FLT64_MAX_EXP__ 1024}\par
+314 {\cf21 #define __INT_LEAST32_TYPE__ int}\par
+315 {\cf21 #define __SIZEOF_WCHAR_T__ 2}\par
+316 {\cf21 #define __FLT128_HAS_QUIET_NAN__ 1}\par
+317 {\cf21 #define __INT_FAST8_TYPE__ signed char}\par
+318 {\cf21 #define __fastcall __attribute__((__fastcall__))}\par
+319 {\cf21 #define __FLT64X_MIN__ 3.36210314311209350626267781732175260e-4932F64x}\par
+320 {\cf21 #define __GNUC_STDC_INLINE__ 1}\par
+321 {\cf21 #define __FLT64_HAS_DENORM__ 1}\par
+322 {\cf21 #define __FLT32_EPSILON__ 1.19209289550781250000000000000000000e-7F32}\par
+323 {\cf21 #define __DBL_DECIMAL_DIG__ 17}\par
+324 {\cf21 #define __STDC_UTF_32__ 1}\par
+325 {\cf21 #define __INT_FAST8_WIDTH__ 8}\par
+326 {\cf21 #define __FXSR__ 1}\par
+327 {\cf21 #define __DEC_EVAL_METHOD__ 2}\par
+328 {\cf21 #define __FLT32X_MAX__ 1.79769313486231570814527423731704357e+308F32x}\par
+329 {\cf21 #define __MINGW64__ 1}\par
+330 {\cf21 #define __cpp_runtime_arrays 198712}\par
+331 {\cf21 #define __UINT64_TYPE__ long long unsigned int}\par
+332 {\cf21 #define __UINT32_C(c) c ## U}\par
+333 {\cf21 #define __INTMAX_MAX__ 0x7fffffffffffffffLL}\par
+334 {\cf21 #define __cpp_alias_templates 200704}\par
+335 {\cf21 #define __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__}\par
+336 {\cf21 #define WINNT 1}\par
+337 {\cf21 #define __FLT_DENORM_MIN__ 1.40129846432481707092372958328991613e-45F}\par
+338 {\cf21 #define __INT8_MAX__ 0x7f}\par
+339 {\cf21 #define __LONG_WIDTH__ 32}\par
+340 {\cf21 #define __PIC__ 1}\par
+341 {\cf21 #define __UINT_FAST32_TYPE__ unsigned int}\par
+342 {\cf21 #define __CHAR32_TYPE__ unsigned int}\par
+343 {\cf21 #define __FLT_MAX__ 3.40282346638528859811704183484516925e+38F}\par
+344 {\cf21 #define __cpp_constexpr 200704}\par
+345 {\cf21 #define __INT32_TYPE__ int}\par
+346 {\cf21 #define __SIZEOF_DOUBLE__ 8}\par
+347 {\cf21 #define __cpp_exceptions 199711}\par
+348 {\cf21 #define __FLT_MIN_10_EXP__ (-37)}\par
+349 {\cf21 #define __FLT64_MIN__ 2.22507385850720138309023271733240406e-308F64}\par
+350 {\cf21 #define __INT_LEAST32_WIDTH__ 32}\par
+351 {\cf21 #define __INTMAX_TYPE__ long long int}\par
+352 {\cf21 #define _INTEGRAL_MAX_BITS 64}\par
+353 {\cf21 #define __DEC128_MAX_EXP__ 6145}\par
+354 {\cf21 #define __FLT32X_HAS_QUIET_NAN__ 1}\par
+355 {\cf21 #define __ATOMIC_CONSUME 1}\par
+356 {\cf21 #define __nocona__ 1}\par
+357 {\cf21 #define __GNUC_MINOR__ 1}\par
+358 {\cf21 #define __GLIBCXX_TYPE_INT_N_0 __int128}\par
+359 {\cf21 #define __INT_FAST16_WIDTH__ 16}\par
+360 {\cf21 #define __UINTMAX_MAX__ 0xffffffffffffffffULL}\par
+361 {\cf21 #define __DEC32_MANT_DIG__ 7}\par
+362 {\cf21 #define __FLT32X_DENORM_MIN__ 4.94065645841246544176568792868221372e-324F32x}\par
+363 {\cf21 #define __DBL_MAX_10_EXP__ 308}\par
+364 {\cf21 #define __LDBL_DENORM_MIN__ 3.64519953188247460252840593361941982e-4951L}\par
+365 {\cf21 #define __INT16_C(c) c}\par
+366 {\cf21 #define __STDC__ 1}\par
+367 {\cf21 #define __FLT32X_DIG__ 15}\par
+368 {\cf21 #define __PTRDIFF_TYPE__ long long int}\par
+369 {\cf21 #define __ATOMIC_SEQ_CST 5}\par
+370 {\cf21 #define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_16 1}\par
+371 {\cf21 #define __UINT32_TYPE__ unsigned int}\par
+372 {\cf21 #define __FLT32X_MIN_10_EXP__ (-307)}\par
+373 {\cf21 #define __UINTPTR_TYPE__ long long unsigned int}\par
+374 {\cf21 #define __DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD}\par
+375 {\cf21 #define __DEC128_MANT_DIG__ 34}\par
+376 {\cf21 #define __LDBL_MIN_10_EXP__ (-4931)}\par
+377 {\cf21 #define __FLT128_EPSILON__ 1.92592994438723585305597794258492732e-34F128}\par
+378 {\cf21 #define __SSE_MATH__ 1}\par
+379 {\cf21 #define __SIZEOF_LONG_LONG__ 8}\par
+380 {\cf21 #define __cpp_user_defined_literals 200809}\par
+381 {\cf21 #define __FLT128_DECIMAL_DIG__ 36}\par
+382 {\cf21 #define __GCC_ATOMIC_LLONG_LOCK_FREE 2}\par
+383 {\cf21 #define __FLT32X_MIN__ 2.22507385850720138309023271733240406e-308F32x}\par
+384 {\cf21 #define __LDBL_DIG__ 18}\par
+385 {\cf21 #define __FLT_DECIMAL_DIG__ 9}\par
+386 {\cf21 #define __UINT_FAST16_MAX__ 0xffff}\par
+387 {\cf21 #define __GCC_ATOMIC_SHORT_LOCK_FREE 2}\par
+388 {\cf21 #define __INT_LEAST64_WIDTH__ 64}\par
+389 {\cf21 #define __SSE3__ 1}\par
+390 {\cf21 #define __UINT_FAST8_TYPE__ unsigned char}\par
+391 {\cf21 #define __WIN64__ 1}\par
+392 {\cf21 #define __ATOMIC_ACQ_REL 4}\par
+393 {\cf21 #define __ATOMIC_RELEASE 3}\par
+394 {\cf21 #define __declspec(x) __attribute__((x))}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ui_dialog.h\par \pard\plain 
+{\tc\tcl2 \v build-Projects-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/ui_dialog.h}
+{\xe \v build-Projects-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/ui_dialog.h}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /********************************************************************************}\par
+2 {\cf20 ** Form generated from reading UI file 'dialog.ui'}\par
+3 {\cf20 **}\par
+4 {\cf20 ** Created by: Qt User Interface Compiler version 5.15.2}\par
+5 {\cf20 **}\par
+6 {\cf20 ** WARNING! All changes made in this file will be lost when recompiling UI file!}\par
+7 {\cf20 ********************************************************************************/}\par
+8 \par
+9 {\cf21 #ifndef UI_DIALOG_H}\par
+10 {\cf21 #define UI_DIALOG_H}\par
+11 \par
+12 {\cf21 #include <QtCore/QVariant>}\par
+13 {\cf21 #include <QtWidgets/QApplication>}\par
+14 {\cf21 #include <QtWidgets/QDialog>}\par
+15 {\cf21 #include <QtWidgets/QHBoxLayout>}\par
+16 {\cf21 #include <QtWidgets/QLabel>}\par
+17 {\cf21 #include <QtWidgets/QLineEdit>}\par
+18 {\cf21 #include <QtWidgets/QPushButton>}\par
+19 {\cf21 #include <QtWidgets/QSpacerItem>}\par
+20 {\cf21 #include <QtWidgets/QVBoxLayout>}\par
+21 \par
+22 QT_BEGIN_NAMESPACE\par
+23 \par
+24 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 Ui_Dialog}}}
+\par
+25 \{\par
+26 {\cf17 public}:\par
+27     QVBoxLayout *verticalLayout_6;\par
+28     QVBoxLayout *verticalLayout_2;\par
+29     QLabel *labelCustomer;\par
+30     QLineEdit *lineEditCustomer;\par
+31     QVBoxLayout *verticalLayout;\par
+32     QLabel *labelAppointment;\par
+33     QLineEdit *lineEditAppointment;\par
+34     QVBoxLayout *verticalLayout_3;\par
+35     QLabel *labelCity;\par
+36     QLineEdit *lineEditCity;\par
+37     QVBoxLayout *verticalLayout_4;\par
+38     QLabel *labelStreetAddress;\par
+39     QLineEdit *lineEditStreetAddress;\par
+40     QVBoxLayout *verticalLayout_5;\par
+41     QLabel *labelPostalCode;\par
+42     QLineEdit *lineEditPostalCode;\par
+43     QHBoxLayout *horizontalLayout;\par
+44     QSpacerItem *horizontalSpacer;\par
+45     QPushButton *pushButtonOK;\par
+46 \par
+47     {\cf18 void} setupUi(QDialog *{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+)\par
+48     \{\par
+49         {\cf19 if} ({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+->objectName().isEmpty())\par
+50             {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+->setObjectName(QString::fromUtf8({\cf22 "Dialog"}));\par
+51         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+->resize(400, 329);\par
+52         verticalLayout_6 = {\cf17 new} QVBoxLayout({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+);\par
+53         verticalLayout_6->setObjectName(QString::fromUtf8({\cf22 "verticalLayout_6"}));\par
+54         verticalLayout_2 = {\cf17 new} QVBoxLayout();\par
+55         verticalLayout_2->setObjectName(QString::fromUtf8({\cf22 "verticalLayout_2"}));\par
+56         labelCustomer = {\cf17 new} QLabel({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+);\par
+57         labelCustomer->setObjectName(QString::fromUtf8({\cf22 "labelCustomer"}));\par
+58 \par
+59         verticalLayout_2->addWidget(labelCustomer);\par
+60 \par
+61         lineEditCustomer = {\cf17 new} QLineEdit({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+);\par
+62         lineEditCustomer->setObjectName(QString::fromUtf8({\cf22 "lineEditCustomer"}));\par
+63         QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);\par
+64         sizePolicy.setHorizontalStretch(0);\par
+65         sizePolicy.setVerticalStretch(0);\par
+66         sizePolicy.setHeightForWidth(lineEditCustomer->sizePolicy().hasHeightForWidth());\par
+67         lineEditCustomer->setSizePolicy(sizePolicy);\par
+68 \par
+69         verticalLayout_2->addWidget(lineEditCustomer);\par
+70 \par
+71 \par
+72         verticalLayout_6->addLayout(verticalLayout_2);\par
+73 \par
+74         verticalLayout = {\cf17 new} QVBoxLayout();\par
+75         verticalLayout->setObjectName(QString::fromUtf8({\cf22 "verticalLayout"}));\par
+76         labelAppointment = {\cf17 new} QLabel({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+);\par
+77         labelAppointment->setObjectName(QString::fromUtf8({\cf22 "labelAppointment"}));\par
+78 \par
+79         verticalLayout->addWidget(labelAppointment);\par
+80 \par
+81 \par
+82         verticalLayout_6->addLayout(verticalLayout);\par
+83 \par
+84         lineEditAppointment = {\cf17 new} QLineEdit({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+);\par
+85         lineEditAppointment->setObjectName(QString::fromUtf8({\cf22 "lineEditAppointment"}));\par
+86 \par
+87         verticalLayout_6->addWidget(lineEditAppointment);\par
+88 \par
+89         verticalLayout_3 = {\cf17 new} QVBoxLayout();\par
+90         verticalLayout_3->setObjectName(QString::fromUtf8({\cf22 "verticalLayout_3"}));\par
+91         labelCity = {\cf17 new} QLabel({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+);\par
+92         labelCity->setObjectName(QString::fromUtf8({\cf22 "labelCity"}));\par
+93 \par
+94         verticalLayout_3->addWidget(labelCity);\par
+95 \par
+96         lineEditCity = {\cf17 new} QLineEdit({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+);\par
+97         lineEditCity->setObjectName(QString::fromUtf8({\cf22 "lineEditCity"}));\par
+98 \par
+99         verticalLayout_3->addWidget(lineEditCity);\par
+100 \par
+101 \par
+102         verticalLayout_6->addLayout(verticalLayout_3);\par
+103 \par
+104         verticalLayout_4 = {\cf17 new} QVBoxLayout();\par
+105         verticalLayout_4->setObjectName(QString::fromUtf8({\cf22 "verticalLayout_4"}));\par
+106         labelStreetAddress = {\cf17 new} QLabel({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+);\par
+107         labelStreetAddress->setObjectName(QString::fromUtf8({\cf22 "labelStreetAddress"}));\par
+108 \par
+109         verticalLayout_4->addWidget(labelStreetAddress);\par
+110 \par
+111         lineEditStreetAddress = {\cf17 new} QLineEdit({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+);\par
+112         lineEditStreetAddress->setObjectName(QString::fromUtf8({\cf22 "lineEditStreetAddress"}));\par
+113         sizePolicy.setHeightForWidth(lineEditStreetAddress->sizePolicy().hasHeightForWidth());\par
+114         lineEditStreetAddress->setSizePolicy(sizePolicy);\par
+115 \par
+116         verticalLayout_4->addWidget(lineEditStreetAddress);\par
+117 \par
+118 \par
+119         verticalLayout_6->addLayout(verticalLayout_4);\par
+120 \par
+121         verticalLayout_5 = {\cf17 new} QVBoxLayout();\par
+122         verticalLayout_5->setObjectName(QString::fromUtf8({\cf22 "verticalLayout_5"}));\par
+123         labelPostalCode = {\cf17 new} QLabel({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+);\par
+124         labelPostalCode->setObjectName(QString::fromUtf8({\cf22 "labelPostalCode"}));\par
+125 \par
+126         verticalLayout_5->addWidget(labelPostalCode);\par
+127 \par
+128         lineEditPostalCode = {\cf17 new} QLineEdit({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+);\par
+129         lineEditPostalCode->setObjectName(QString::fromUtf8({\cf22 "lineEditPostalCode"}));\par
+130         lineEditPostalCode->setMaxLength(6);\par
+131 \par
+132         verticalLayout_5->addWidget(lineEditPostalCode);\par
+133 \par
+134 \par
+135         verticalLayout_6->addLayout(verticalLayout_5);\par
+136 \par
+137         horizontalLayout = {\cf17 new} QHBoxLayout();\par
+138         horizontalLayout->setObjectName(QString::fromUtf8({\cf22 "horizontalLayout"}));\par
+139         horizontalSpacer = {\cf17 new} QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);\par
+140 \par
+141         horizontalLayout->addItem(horizontalSpacer);\par
+142 \par
+143         pushButtonOK = {\cf17 new} QPushButton({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+);\par
+144         pushButtonOK->setObjectName(QString::fromUtf8({\cf22 "pushButtonOK"}));\par
+145 \par
+146         horizontalLayout->addWidget(pushButtonOK);\par
+147 \par
+148 \par
+149         verticalLayout_6->addLayout(horizontalLayout);\par
+150 \par
+151 \par
+152         retranslateUi({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+);\par
+153 \par
+154         QMetaObject::connectSlotsByName({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+);\par
+155     \} {\cf20 // setupUi}\par
+156 \par
+157     {\cf18 void} retranslateUi(QDialog *{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+)\par
+158     \{\par
+159         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+->setWindowTitle(QCoreApplication::translate({\cf22 "Dialog"}, {\cf22 "Dialog"}, {\cf17 nullptr}));\par
+160         labelCustomer->setText(QCoreApplication::translate({\cf22 "Dialog"}, {\cf22 "INN"}, {\cf17 nullptr}));\par
+161         labelAppointment->setText(QCoreApplication::translate({\cf22 "Dialog"}, {\cf22 "Suplier"}, {\cf17 nullptr}));\par
+162         labelCity->setText(QCoreApplication::translate({\cf22 "Dialog"}, {\cf22 "City"}, {\cf17 nullptr}));\par
+163         labelStreetAddress->setText(QCoreApplication::translate({\cf22 "Dialog"}, {\cf22 "Street address"}, {\cf17 nullptr}));\par
+164         labelPostalCode->setText(QCoreApplication::translate({\cf22 "Dialog"}, {\cf22 "Postal code"}, {\cf17 nullptr}));\par
+165         pushButtonOK->setText(QCoreApplication::translate({\cf22 "Dialog"}, {\cf22 "OK"}, {\cf17 nullptr}));\par
+166     \} {\cf20 // retranslateUi}\par
+167 \par
+168 \};\par
+169 \par
+170 {\cf17 namespace }Ui \{\par
+171     {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAE" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+: {\cf17 public} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAC" }{}}{\fldrslt {\cs37\ul\cf2 Ui_Dialog}}}
+ \{\};\par
+172 \} {\cf20 // namespace Ui}\par
+173 \par
+174 QT_END_NAMESPACE\par
+175 \par
+176 {\cf21 #endif }{\cf20 // UI_DIALOG_H}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ui_mainwindow.h\par \pard\plain 
+{\tc\tcl2 \v build-Projects-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/ui_mainwindow.h}
+{\xe \v build-Projects-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/ui_mainwindow.h}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf20 /********************************************************************************}\par
+2 {\cf20 ** Form generated from reading UI file 'mainwindow.ui'}\par
+3 {\cf20 **}\par
+4 {\cf20 ** Created by: Qt User Interface Compiler version 5.15.2}\par
+5 {\cf20 **}\par
+6 {\cf20 ** WARNING! All changes made in this file will be lost when recompiling UI file!}\par
+7 {\cf20 ********************************************************************************/}\par
+8 \par
+9 {\cf21 #ifndef UI_MAINWINDOW_H}\par
+10 {\cf21 #define UI_MAINWINDOW_H}\par
+11 \par
+12 {\cf21 #include <QtCore/QVariant>}\par
+13 {\cf21 #include <QtWidgets/QAction>}\par
+14 {\cf21 #include <QtWidgets/QApplication>}\par
+15 {\cf21 #include <QtWidgets/QFrame>}\par
+16 {\cf21 #include <QtWidgets/QHeaderView>}\par
+17 {\cf21 #include <QtWidgets/QMainWindow>}\par
+18 {\cf21 #include <QtWidgets/QMenu>}\par
+19 {\cf21 #include <QtWidgets/QMenuBar>}\par
+20 {\cf21 #include <QtWidgets/QStatusBar>}\par
+21 {\cf21 #include <QtWidgets/QTableView>}\par
+22 {\cf21 #include <QtWidgets/QToolBar>}\par
+23 {\cf21 #include <QtWidgets/QVBoxLayout>}\par
+24 {\cf21 #include <QtWidgets/QWidget>}\par
+25 \par
+26 QT_BEGIN_NAMESPACE\par
+27 \par
+28 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAG" }{}}{\fldrslt {\cs37\ul\cf2 Ui_MainWindow}}}
+\par
+29 \{\par
+30 {\cf17 public}:\par
+31     QAction *actionAbout_program;\par
+32     QAction *actionAdd_project;\par
+33     QAction *actionEdit_project;\par
+34     QAction *actionDelete_project;\par
+35     QWidget *centralwidget;\par
+36     QVBoxLayout *verticalLayout;\par
+37     QTableView *tableView;\par
+38     QFrame *line;\par
+39     QMenuBar *menubar;\par
+40     QMenu *menuLanguage;\par
+41     QMenu *menuHelp;\par
+42     QStatusBar *statusbar;\par
+43     QToolBar *toolBar;\par
+44 \par
+45     {\cf18 void} setupUi(QMainWindow *{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+)\par
+46     \{\par
+47         {\cf19 if} ({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+->objectName().isEmpty())\par
+48             {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+->setObjectName(QString::fromUtf8({\cf22 "MainWindow"}));\par
+49         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+->resize(800, 600);\par
+50         actionAbout_program = {\cf17 new} QAction({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+);\par
+51         actionAbout_program->setObjectName(QString::fromUtf8({\cf22 "actionAbout_program"}));\par
+52         QIcon icon;\par
+53         icon.addFile(QString::fromUtf8({\cf22 ":/ico/images/about.png"}), QSize(), QIcon::Normal, QIcon::Off);\par
+54         actionAbout_program->setIcon(icon);\par
+55         actionAdd_project = {\cf17 new} QAction({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+);\par
+56         actionAdd_project->setObjectName(QString::fromUtf8({\cf22 "actionAdd_project"}));\par
+57         QIcon icon1;\par
+58         icon1.addFile(QString::fromUtf8({\cf22 ":/ico/images/add.png"}), QSize(), QIcon::Normal, QIcon::Off);\par
+59         actionAdd_project->setIcon(icon1);\par
+60         actionEdit_project = {\cf17 new} QAction({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+);\par
+61         actionEdit_project->setObjectName(QString::fromUtf8({\cf22 "actionEdit_project"}));\par
+62         QIcon icon2;\par
+63         icon2.addFile(QString::fromUtf8({\cf22 ":/ico/images/edit.png"}), QSize(), QIcon::Normal, QIcon::Off);\par
+64         actionEdit_project->setIcon(icon2);\par
+65         actionDelete_project = {\cf17 new} QAction({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+);\par
+66         actionDelete_project->setObjectName(QString::fromUtf8({\cf22 "actionDelete_project"}));\par
+67         QIcon icon3;\par
+68         icon3.addFile(QString::fromUtf8({\cf22 ":/ico/images/delete.png"}), QSize(), QIcon::Normal, QIcon::Off);\par
+69         actionDelete_project->setIcon(icon3);\par
+70         centralwidget = {\cf17 new} QWidget({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+);\par
+71         centralwidget->setObjectName(QString::fromUtf8({\cf22 "centralwidget"}));\par
+72         verticalLayout = {\cf17 new} QVBoxLayout(centralwidget);\par
+73         verticalLayout->setObjectName(QString::fromUtf8({\cf22 "verticalLayout"}));\par
+74         tableView = {\cf17 new} QTableView(centralwidget);\par
+75         tableView->setObjectName(QString::fromUtf8({\cf22 "tableView"}));\par
+76 \par
+77         verticalLayout->addWidget(tableView);\par
+78 \par
+79         line = {\cf17 new} QFrame(centralwidget);\par
+80         line->setObjectName(QString::fromUtf8({\cf22 "line"}));\par
+81         line->setFrameShape(QFrame::HLine);\par
+82         line->setFrameShadow(QFrame::Sunken);\par
+83 \par
+84         verticalLayout->addWidget(line);\par
+85 \par
+86         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+->setCentralWidget(centralwidget);\par
+87         menubar = {\cf17 new} QMenuBar({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+);\par
+88         menubar->setObjectName(QString::fromUtf8({\cf22 "menubar"}));\par
+89         menubar->setGeometry(QRect(0, 0, 800, 25));\par
+90         menuLanguage = {\cf17 new} QMenu(menubar);\par
+91         menuLanguage->setObjectName(QString::fromUtf8({\cf22 "menuLanguage"}));\par
+92         menuHelp = {\cf17 new} QMenu(menubar);\par
+93         menuHelp->setObjectName(QString::fromUtf8({\cf22 "menuHelp"}));\par
+94         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+->setMenuBar(menubar);\par
+95         statusbar = {\cf17 new} QStatusBar({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+);\par
+96         statusbar->setObjectName(QString::fromUtf8({\cf22 "statusbar"}));\par
+97         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+->setStatusBar(statusbar);\par
+98         toolBar = {\cf17 new} QToolBar({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+);\par
+99         toolBar->setObjectName(QString::fromUtf8({\cf22 "toolBar"}));\par
+100         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+->addToolBar(Qt::TopToolBarArea, toolBar);\par
+101 \par
+102         menubar->addAction(menuLanguage->menuAction());\par
+103         menubar->addAction(menuHelp->menuAction());\par
+104         menuHelp->addAction(actionAbout_program);\par
+105         toolBar->addAction(actionAdd_project);\par
+106         toolBar->addSeparator();\par
+107         toolBar->addAction(actionEdit_project);\par
+108         toolBar->addSeparator();\par
+109         toolBar->addAction(actionDelete_project);\par
+110 \par
+111         retranslateUi({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+);\par
+112 \par
+113         QMetaObject::connectSlotsByName({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+);\par
+114     \} {\cf20 // setupUi}\par
+115 \par
+116     {\cf18 void} retranslateUi(QMainWindow *{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+)\par
+117     \{\par
+118         {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+->setWindowTitle(QCoreApplication::translate({\cf22 "MainWindow"}, {\cf22 "MainWindow"}, {\cf17 nullptr}));\par
+119         actionAbout_program->setText(QCoreApplication::translate({\cf22 "MainWindow"}, {\cf22 "About program"}, {\cf17 nullptr}));\par
+120         actionAdd_project->setText(QCoreApplication::translate({\cf22 "MainWindow"}, {\cf22 "Add project"}, {\cf17 nullptr}));\par
+121         actionEdit_project->setText(QCoreApplication::translate({\cf22 "MainWindow"}, {\cf22 "Edit project"}, {\cf17 nullptr}));\par
+122         actionDelete_project->setText(QCoreApplication::translate({\cf22 "MainWindow"}, {\cf22 "Delete project"}, {\cf17 nullptr}));\par
+123         menuLanguage->setTitle(QCoreApplication::translate({\cf22 "MainWindow"}, {\cf22 "Language"}, {\cf17 nullptr}));\par
+124         menuHelp->setTitle(QCoreApplication::translate({\cf22 "MainWindow"}, {\cf22 "Help"}, {\cf17 nullptr}));\par
+125         toolBar->setWindowTitle(QCoreApplication::translate({\cf22 "MainWindow"}, {\cf22 "toolBar"}, {\cf17 nullptr}));\par
+126     \} {\cf20 // retranslateUi}\par
+127 \par
+128 \};\par
+129 \par
+130 {\cf17 namespace }Ui \{\par
+131     {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAI" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+: {\cf17 public} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAG" }{}}{\fldrslt {\cs37\ul\cf2 Ui_MainWindow}}}
+ \{\};\par
+132 \} {\cf20 // namespace Ui}\par
+133 \par
+134 QT_END_NAMESPACE\par
+135 \par
+136 {\cf21 #endif }{\cf20 // UI_MAINWINDOW_H}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+database.h\par \pard\plain 
+{\tc\tcl2 \v Projects/database.h}
+{\xe \v Projects/database.h}
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #ifndef DATABASE_H}\par
+2 {\cf21 #define DATABASE_H}\par
+3 \par
+4 {\cf21 #include "project.h"}\par
+5 \par
+6 {\cf21 #include <QObject>}\par
+7 {\cf21 #include <QSqlDatabase>}\par
+8 {\cf21 #include <QSqlQueryModel>}\par
+9 \par
+11 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAK" }{}}{\fldrslt {\cs37\ul\cf2 Database}}}
+\par
+12 \{\par
+13 {\cf17 public}:\par
+15     {\cf17 virtual} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAL" }{}}{\fldrslt {\cs37\ul\cf2 ~Database}}}
+();\par
+17     {\cf18 bool} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAM" }{}}{\fldrslt {\cs37\ul\cf2 connect}}}
+(QObject *parent = {\cf17 nullptr});\par
+19     {\cf18 void} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAN" }{}}{\fldrslt {\cs37\ul\cf2 close}}}
+();\par
+21     {\cf18 void} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAO" }{}}{\fldrslt {\cs37\ul\cf2 select}}}
+();\par
+22 \par
+24     {\cf18 bool} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAP" }{}}{\fldrslt {\cs37\ul\cf2 addProject}}}
+({\cf17 const} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Project}}}
+ &project);\par
+26     {\cf18 bool} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAR" }{}}{\fldrslt {\cs37\ul\cf2 editProject}}}
+({\cf17 const} {\cf18 int} {\cf18 id}, {\cf17 const} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Project}}}
+ &project);\par
+28     {\cf18 bool} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAS" }{}}{\fldrslt {\cs37\ul\cf2 deleteProject}}}
+({\cf17 const} {\cf18 int} {\cf18 id});\par
+29 \par
+31     QSqlDatabase {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAT" }{}}{\fldrslt {\cs37\ul\cf2 getDatabase}}}
+();\par
+33     QSqlQueryModel *{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAU" }{}}{\fldrslt {\cs37\ul\cf2 getModel}}}
+();\par
+34 \par
+35 {\cf17 private}:\par
+37     {\cf17 static} {\cf18 int} getObjectLocationId({\cf17 const} QString &city,\par
+38                                 {\cf17 const} QString &streetAddress,\par
+39                                 {\cf17 const} QString &postalCode);\par
+40 \par
+42     QSqlQueryModel *_model;\par
+43 \};\par
+44 \par
+45 {\cf21 #endif }{\cf20 // DATABASE_H}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+dialog.h\par \pard\plain 
+{\tc\tcl2 \v Projects/dialog.h}
+{\xe \v Projects/dialog.h}
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #ifndef DIALOG_H}\par
+2 {\cf21 #define DIALOG_H}\par
+3 \par
+4 {\cf21 #include "project.h"}\par
+5 \par
+6 {\cf21 #include <QDialog>}\par
+7 \par
+8 {\cf17 namespace }Ui \{\par
+9 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+;\par
+10 \}\par
+11 \par
+13 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+ : {\cf17 public} QDialog\par
+14 \{\par
+15     Q_OBJECT\par
+16 \par
+17 {\cf17 public}:\par
+19     {\cf17 explicit} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+(QWidget *parent = {\cf17 nullptr});\par
+21     {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAD" }{}}{\fldrslt {\cs37\ul\cf2 Dialog}}}
+({\cf17 const} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Project}}}
+ &project, QWidget *parent = {\cf17 nullptr});\par
+23     {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAW" }{}}{\fldrslt {\cs37\ul\cf2 ~Dialog}}}
+();\par
+24 \par
+25 signals:\par
+27     {\cf18 void} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAX" }{}}{\fldrslt {\cs37\ul\cf2 sendProject}}}
+({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Project}}}
+);\par
+28 \par
+29 {\cf17 private} slots:\par
+31     {\cf18 void} pushButtonOk_clicked();\par
+32 \par
+33 {\cf17 private}:\par
+35     {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Project}}}
+ *getProject();\par
+37     {\cf18 void} setProject({\cf17 const} {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Project}}}
+ &project);\par
+38 \par
+40     {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAE" }{}}{\fldrslt {\cs37\ul\cf2 Ui::Dialog}}}
+ *ui;\par
+41 \};\par
+42 \par
+43 {\cf21 #endif }{\cf20 // DIALOG_H}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+mainwindow.h\par \pard\plain 
+{\tc\tcl2 \v Projects/mainwindow.h}
+{\xe \v Projects/mainwindow.h}
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #ifndef MAINWINDOW_H}\par
+2 {\cf21 #define MAINWINDOW_H}\par
+3 \par
+4 {\cf21 #include "database.h"}\par
+5 \par
+6 {\cf21 #include <QMainWindow>}\par
+7 {\cf21 #include <QTranslator>}\par
+8 {\cf21 #include <QSortFilterProxyModel>}\par
+9 \par
+10 QT_BEGIN_NAMESPACE\par
+11 {\cf17 namespace }Ui \{ {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+; \}\par
+12 QT_END_NAMESPACE\par
+13 \par
+14 {\cf17 class }QActionGroup;\par
+15 \par
+17 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+ : {\cf17 public} QMainWindow\par
+18 \{\par
+19     Q_OBJECT\par
+20 \par
+21 {\cf17 public}:\par
+23     {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAH" }{}}{\fldrslt {\cs37\ul\cf2 MainWindow}}}
+(QWidget *parent = {\cf17 nullptr});\par
+25     {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAZ" }{}}{\fldrslt {\cs37\ul\cf2 ~MainWindow}}}
+();\par
+26 \par
+27 {\cf17 private} slots:\par
+29     {\cf18 void} switchLanguage(QAction *action);\par
+31     {\cf18 void} actionAddProject_triggered();\par
+33     {\cf18 void} actionEditProject_triggered();\par
+35     {\cf18 void} actionDeleteProject_triggered();\par
+37     {\cf18 void} recieveAddProject({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Project}}}
+ {\cf18 object});\par
+39     {\cf18 void} recieveEditProject({\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Project}}}
+ {\cf18 object});\par
+41     {\cf18 void} actionAboutProgram_triggered();\par
+42 \par
+43 {\cf17 private}:\par
+45     {\cf18 void} createLanguageMenu();\par
+47     {\cf18 void} createUi();\par
+49     {\cf18 void} readSettings();\par
+51     {\cf18 void} writeSettings();\par
+52 \par
+54     {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAI" }{}}{\fldrslt {\cs37\ul\cf2 Ui::MainWindow}}}
+ *ui;\par
+56     {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAK" }{}}{\fldrslt {\cs37\ul\cf2 Database}}}
+ *db;\par
+58     QSortFilterProxyModel *proxyModel;\par
+60     QString qmPath;\par
+62     QTranslator appTranslator;\par
+64     QActionGroup *languageActionGroup;\par
+66     QString currentLanguage;\par
+67 \par
+68 \};\par
+69 {\cf21 #endif }{\cf20 // MAINWINDOW_H}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+project.h\par \pard\plain 
+{\tc\tcl2 \v Projects/project.h}
+{\xe \v Projects/project.h}
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #ifndef PROJECT_H}\par
+2 {\cf21 #define PROJECT_H}\par
+3 \par
+4 {\cf21 #include <QString>}\par
+5 \par
+6 {\cf17 class }{\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAAAQ" }{}}{\fldrslt {\cs37\ul\cf2 Project}}}
+\par
+7 \{\par
+8 {\cf17 public}:\par
+10     {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABB" }{}}{\fldrslt {\cs37\ul\cf2 Project}}}
+();\par
+12     {\field {\*\fldinst { HYPERLINK  \\l "AAAAAAAABB" }{}}{\fldrslt {\cs37\ul\cf2 Project}}}
+(QString appointment,\par
+13            QString customer,\par
+14            QString city,\par
+15            QString streetAddress,\par
+16            QString postalCode);\par
+17 \par
+18     QString appointment() {\cf17 const};\par
+19     {\cf18 void} setAppointment({\cf17 const} QString &appointment);\par
+20 \par
+21     QString customer() {\cf17 const};\par
+22     {\cf18 void} setCustomer({\cf17 const} QString &customer);\par
+23 \par
+24     QString city() {\cf17 const};\par
+25     {\cf18 void} setCity({\cf17 const} QString &city);\par
+26 \par
+27     QString streetAddress() {\cf17 const};\par
+28     {\cf18 void} setStreetAddress({\cf17 const} QString &streetAddress);\par
+29 \par
+30     QString postalCode() {\cf17 const};\par
+31     {\cf18 void} setPostalCode({\cf17 const} QString &postalCode);\par
+32 \par
+33 {\cf17 private}:\par
+35     QString _appointment;\par
+37     QString _customer;\par
+39     QString _city;\par
+41     QString _streetAddress;\par
+43     QString _postalCode;\par
+44 \};\par
+45 \par
+46 {\cf21 #endif }{\cf20 // PROJECT_H}\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC\par 
+\pard\plain 
+{\tc \v \'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}
